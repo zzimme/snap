@@ -1,0 +1,1888 @@
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3546"),
+    "setHeading" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "motion",
+        "spec" : "point in direction %dir"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3547"),
+    "changeXPosition" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "motion",
+        "spec" : "change x by %n",
+        "defaults" : [ 
+            10
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3548"),
+    "setXPosition" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "motion",
+        "spec" : "set x to %n",
+        "defaults" : [ 
+            0
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3549"),
+    "turnLeft" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "motion",
+        "spec" : "turn %counterclockwise %n degrees",
+        "defaults" : [ 
+            15
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff354a"),
+    "doGlide" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "motion",
+        "spec" : "glide %n secs to x: %n y: %n",
+        "defaults" : [ 
+            1, 
+            0, 
+            0
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff354b"),
+    "changeYPosition" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "motion",
+        "spec" : "change y by %n",
+        "defaults" : [ 
+            10
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff354c"),
+    "setYPosition" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "motion",
+        "spec" : "set y to %n",
+        "defaults" : [ 
+            0
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff354d"),
+    "xPosition" : {
+        "only" : "SpriteMorph",
+        "type" : "reporter",
+        "category" : "motion",
+        "spec" : "x position"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff354e"),
+    "bounceOffEdge" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "motion",
+        "spec" : "if on edge, bounce"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff354f"),
+    "doGotoObject" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "motion",
+        "spec" : "go to %dst"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3550"),
+    "yPosition" : {
+        "only" : "SpriteMorph",
+        "type" : "reporter",
+        "category" : "motion",
+        "spec" : "y position"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3551"),
+    "forward" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "motion",
+        "spec" : "move %n steps",
+        "defaults" : [ 
+            10
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3552"),
+    "doFaceTowards" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "motion",
+        "spec" : "point towards %dst"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3553"),
+    "doSwitchToCostume" : {
+        "type" : "command",
+        "category" : "looks",
+        "spec" : "switch to costume %cst"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3554"),
+    "bubble" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "looks",
+        "spec" : "say %s",
+        "defaults" : [ 
+            "localize('Hello!')"
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3555"),
+    "direction" : {
+        "only" : "SpriteMorph",
+        "type" : "reporter",
+        "category" : "motion",
+        "spec" : "direction"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3556"),
+    "getCostumeIdx" : {
+        "type" : "reporter",
+        "category" : "looks",
+        "spec" : "costume #"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3557"),
+    "doSayFor" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "looks",
+        "spec" : "say %s for %n secs",
+        "defaults" : [ 
+            "localize('Hello!')", 
+            2
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3558"),
+    "doThinkFor" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "looks",
+        "spec" : "think %s for %n secs",
+        "defaults" : [ 
+            "localize('Hmm...')", 
+            2
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3559"),
+    "setEffect" : {
+        "type" : "command",
+        "category" : "looks",
+        "spec" : "set %eff effect to %n",
+        "defaults" : [ 
+            null, 
+            0
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff355a"),
+    "gotoXY" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "motion",
+        "spec" : "go to x: %n y: %n",
+        "defaults" : [ 
+            0, 
+            0
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff355b"),
+    "changeScale" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "looks",
+        "spec" : "change size by %n",
+        "defaults" : [ 
+            10
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff355c"),
+    "clearEffects" : {
+        "type" : "command",
+        "category" : "looks",
+        "spec" : "clear graphic effects"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff355d"),
+    "doWearNextCostume" : {
+        "type" : "command",
+        "category" : "looks",
+        "spec" : "next costume"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff355e"),
+    "changeEffect" : {
+        "type" : "command",
+        "category" : "looks",
+        "spec" : "change %eff effect by %n",
+        "defaults" : [ 
+            null, 
+            25
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff355f"),
+    "comeToFront" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "looks",
+        "spec" : "go to front"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3560"),
+    "setScale" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "looks",
+        "spec" : "set size to %n %",
+        "defaults" : [ 
+            100
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3561"),
+    "turn" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "motion",
+        "spec" : "turn %clockwise %n degrees",
+        "defaults" : [ 
+            15
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3562"),
+    "goBack" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "looks",
+        "spec" : "go back %n layers",
+        "defaults" : [ 
+            1
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3563"),
+    "alert" : {
+        "dev" : true,
+        "type" : "command",
+        "category" : "looks",
+        "spec" : "alert %mult%s"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3564"),
+    "log" : {
+        "dev" : true,
+        "type" : "command",
+        "category" : "looks",
+        "spec" : "console log %mult%s"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3565"),
+    "playSound" : {
+        "type" : "command",
+        "category" : "sound",
+        "spec" : "play sound %snd"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3566"),
+    "doPlaySoundUntilDone" : {
+        "type" : "command",
+        "category" : "sound",
+        "spec" : "play sound %snd until done"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3567"),
+    "doThink" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "looks",
+        "spec" : "think %s",
+        "defaults" : [ 
+            "localize('Hmm...')"
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3568"),
+    "doStopAllSounds" : {
+        "type" : "command",
+        "category" : "sound",
+        "spec" : "stop all sounds"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3569"),
+    "doScreenshot" : {
+        "type" : "command",
+        "category" : "looks",
+        "spec" : "save %imgsource as costume named %s",
+        "defaults" : [ 
+            [ 
+                "pen trails"
+            ], 
+            "localize('screenshot')"
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff356a"),
+    "doChangeTempo" : {
+        "type" : "command",
+        "category" : "sound",
+        "spec" : "change tempo by %n",
+        "defaults" : [ 
+            20
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff356b"),
+    "show" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "looks",
+        "spec" : "show"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff356c"),
+    "getTempo" : {
+        "type" : "reporter",
+        "category" : "sound",
+        "spec" : "tempo"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff356d"),
+    "reportSounds" : {
+        "dev" : true,
+        "type" : "reporter",
+        "category" : "sound",
+        "spec" : "jukebox"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff356e"),
+    "reportCostumes" : {
+        "dev" : true,
+        "type" : "reporter",
+        "category" : "looks",
+        "spec" : "wardrobe"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff356f"),
+    "down" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "pen",
+        "spec" : "pen down"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3570"),
+    "hide" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "looks",
+        "spec" : "hide"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3571"),
+    "setColor" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "pen",
+        "spec" : "set pen color to %clr"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3572"),
+    "doRest" : {
+        "type" : "command",
+        "category" : "sound",
+        "spec" : "rest for %n beats",
+        "defaults" : [ 
+            0.2000000000000000
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3573"),
+    "changeHue" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "pen",
+        "spec" : "change pen color by %n",
+        "defaults" : [ 
+            10
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3574"),
+    "up" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "pen",
+        "spec" : "pen up"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3575"),
+    "changeBrightness" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "pen",
+        "spec" : "change pen shade by %n",
+        "defaults" : [ 
+            10
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3576"),
+    "setBrightness" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "pen",
+        "spec" : "set pen shade to %n",
+        "defaults" : [ 
+            100
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3577"),
+    "doStamp" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "pen",
+        "spec" : "stamp"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3578"),
+    "setHue" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "pen",
+        "spec" : "set pen color to %n",
+        "defaults" : [ 
+            0
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3579"),
+    "doSetTempo" : {
+        "type" : "command",
+        "category" : "sound",
+        "spec" : "set tempo to %n bpm",
+        "defaults" : [ 
+            60
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff357a"),
+    "changeSize" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "pen",
+        "spec" : "change pen size by %n",
+        "defaults" : [ 
+            1
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff357b"),
+    "clear" : {
+        "type" : "command",
+        "category" : "pen",
+        "spec" : "clear"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff357c"),
+    "floodFill" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "pen",
+        "spec" : "fill"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff357d"),
+    "receiveInteraction" : {
+        "type" : "hat",
+        "category" : "control",
+        "spec" : "when I am %interaction",
+        "defaults" : [ 
+            "clicked"
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff357e"),
+    "setSize" : {
+        "only" : "SpriteMorph",
+        "type" : "command",
+        "category" : "pen",
+        "spec" : "set pen size to %n",
+        "defaults" : [ 
+            1
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff357f"),
+    "doBroadcast" : {
+        "type" : "command",
+        "category" : "control",
+        "spec" : "broadcast %msg"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3580"),
+    "receiveMessage" : {
+        "type" : "hat",
+        "category" : "control",
+        "spec" : "when I receive %msgHat"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3581"),
+    "receiveCondition" : {
+        "type" : "hat",
+        "category" : "control",
+        "spec" : "when %b"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3582"),
+    "getLastMessage" : {
+        "type" : "reporter",
+        "category" : "control",
+        "spec" : "message"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3583"),
+    "doBroadcastAndWait" : {
+        "type" : "command",
+        "category" : "control",
+        "spec" : "broadcast %msg and wait"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3584"),
+    "receiveKey" : {
+        "type" : "hat",
+        "category" : "control",
+        "spec" : "when %keyHat key pressed 1"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3585"),
+    "doPlayNote" : {
+        "type" : "command",
+        "category" : "sound",
+        "spec" : "play note %n for %n beats",
+        "defaults" : [ 
+            60, 
+            0.5000000000000000
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3586"),
+    "getScale" : {
+        "only" : "SpriteMorph",
+        "type" : "reporter",
+        "category" : "looks",
+        "spec" : "size"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3587"),
+    "receiveGo" : {
+        "type" : "hat",
+        "category" : "control",
+        "spec" : "when %greenflag clicked"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3588"),
+    "doWait" : {
+        "type" : "command",
+        "category" : "control",
+        "spec" : "wait %n secs",
+        "defaults" : [ 
+            1
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3589"),
+    "doWaitUntil" : {
+        "type" : "command",
+        "category" : "control",
+        "spec" : "wait until %b"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff358a"),
+    "doForever" : {
+        "type" : "command",
+        "category" : "control",
+        "spec" : "forever %c"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff358b"),
+    "doUntil" : {
+        "type" : "command",
+        "category" : "control",
+        "spec" : "repeat until %b %c"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff358c"),
+    "doRepeat" : {
+        "type" : "command",
+        "category" : "control",
+        "spec" : "repeat %n %c",
+        "defaults" : [ 
+            10
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff358d"),
+    "doIf" : {
+        "type" : "command",
+        "category" : "control",
+        "spec" : "if %b %c"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff358e"),
+    "doIfElse" : {
+        "type" : "command",
+        "category" : "control",
+        "spec" : "if %b %c else %c"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff358f"),
+    "doStopThis" : {
+        "type" : "command",
+        "category" : "control",
+        "spec" : "stop %stopChoices"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3590"),
+    "doRun" : {
+        "type" : "command",
+        "category" : "control",
+        "spec" : "run %cmdRing %inputs"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3591"),
+    "doStopOthers" : {
+        "type" : "command",
+        "category" : "control",
+        "spec" : "stop %stopOthersChoices"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3592"),
+    "fork" : {
+        "type" : "command",
+        "category" : "control",
+        "spec" : "launch %cmdRing %inputs"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3593"),
+    "doReport" : {
+        "type" : "command",
+        "category" : "control",
+        "spec" : "report %s"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3594"),
+    "evaluate" : {
+        "type" : "reporter",
+        "category" : "control",
+        "spec" : "call %repRing %inputs"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3595"),
+    "doCallCC" : {
+        "type" : "command",
+        "category" : "control",
+        "spec" : "run %cmdRing w/continuation"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3596"),
+    "doWarp" : {
+        "type" : "command",
+        "category" : "other",
+        "spec" : "warp %c"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3597"),
+    "receiveOnClone" : {
+        "type" : "hat",
+        "category" : "control",
+        "spec" : "when I start as a clone"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3598"),
+    "reportTouchingObject" : {
+        "only" : "SpriteMorph",
+        "type" : "predicate",
+        "category" : "sensing",
+        "spec" : "touching %col ?"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff3599"),
+    "reportCallCC" : {
+        "type" : "reporter",
+        "category" : "control",
+        "spec" : "call %cmdRing w/continuation"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff359a"),
+    "doPauseAll" : {
+        "type" : "command",
+        "category" : "control",
+        "spec" : "pause all %pause"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff359b"),
+    "removeClone" : {
+        "type" : "command",
+        "category" : "control",
+        "spec" : "delete this clone"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff359c"),
+    "createClone" : {
+        "type" : "command",
+        "category" : "control",
+        "spec" : "create a clone of %cln"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff359d"),
+    "reportTouchingColor" : {
+        "only" : "SpriteMorph",
+        "type" : "predicate",
+        "category" : "sensing",
+        "spec" : "touching %clr ?"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff359e"),
+    "reportFrameCount" : {
+        "dev" : true,
+        "type" : "reporter",
+        "category" : "sensing",
+        "spec" : "frames"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff359f"),
+    "reportColorIsTouchingColor" : {
+        "only" : "SpriteMorph",
+        "type" : "predicate",
+        "category" : "sensing",
+        "spec" : "color %clr is touching %clr ?"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35a0"),
+    "reportThreadCount" : {
+        "dev" : true,
+        "type" : "reporter",
+        "category" : "sensing",
+        "spec" : "processes"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35a1"),
+    "reportLastAnswer" : {
+        "dev" : true,
+        "type" : "reporter",
+        "category" : "sensing",
+        "spec" : "answer"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35a2"),
+    "doAsk" : {
+        "type" : "command",
+        "category" : "sensing",
+        "spec" : "ask %s and wait",
+        "defaults" : [ 
+            "localize('what's your name?')"
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35a3"),
+    "reportMouseX" : {
+        "type" : "reporter",
+        "category" : "sensing",
+        "spec" : "mouse x"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35a4"),
+    "colorFiltered" : {
+        "dev" : true,
+        "type" : "reporter",
+        "category" : "sensing",
+        "spec" : "filtered for %clr"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35a5"),
+    "reportMouseDown" : {
+        "type" : "predicate",
+        "category" : "sensing",
+        "spec" : "mouse down?"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35a6"),
+    "reportMouseY" : {
+        "type" : "reporter",
+        "category" : "sensing",
+        "spec" : "mouse y"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35a7"),
+    "doResetTimer" : {
+        "type" : "command",
+        "category" : "sensing",
+        "spec" : "reset timer"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35a8"),
+    "reportTimer" : {
+        "dev" : true,
+        "type" : "reporter",
+        "category" : "sensing",
+        "spec" : "timer"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35a9"),
+    "reportKeyPressed" : {
+        "type" : "predicate",
+        "category" : "sensing",
+        "spec" : "key %key pressed?"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35aa"),
+    "getTimer" : {
+        "type" : "reporter",
+        "category" : "sensing",
+        "spec" : "timer"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35ab"),
+    "reportIsFastTracking" : {
+        "type" : "predicate",
+        "category" : "sensing",
+        "spec" : "turbo mode?"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35ac"),
+    "reportURL" : {
+        "type" : "reporter",
+        "category" : "sensing",
+        "spec" : "http:// %s",
+        "defaults" : [ 
+            "snap.berkeley.edu"
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35ad"),
+    "reportDistanceTo" : {
+        "type" : "reporter",
+        "category" : "sensing",
+        "spec" : "distance to %dst"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35ae"),
+    "doSetFastTracking" : {
+        "type" : "command",
+        "category" : "sensing",
+        "spec" : "set turbo mode to %b"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35af"),
+    "reportDate" : {
+        "type" : "reporter",
+        "category" : "sensing",
+        "spec" : "current %dates"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35b0"),
+    "reifyReporter" : {
+        "type" : "ring",
+        "category" : "other",
+        "spec" : "%rr %ringparms",
+        "alias" : "reporter ring lambda"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35b1"),
+    "reifyScript" : {
+        "type" : "ring",
+        "category" : "other",
+        "spec" : "%rc %ringparms",
+        "alias" : "command ring lambda"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35b2"),
+    "reportAttributeOf" : {
+        "type" : "reporter",
+        "category" : "sensing",
+        "spec" : "%att of %spr",
+        "defaults" : [ 
+            [ 
+                "costume #"
+            ]
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35b3"),
+    "reifyPredicate" : {
+        "type" : "ring",
+        "category" : "other",
+        "spec" : "%rp %ringparms",
+        "alias" : "predicate ring lambda"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35b4"),
+    "reportSum" : {
+        "type" : "reporter",
+        "category" : "operators",
+        "spec" : "%n + %n"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35b5"),
+    "reportDifference" : {
+        "type" : "reporter",
+        "category" : "operators",
+        "spec" : "%n − %n",
+        "alias" : "-"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35b6"),
+    "reportQuotient" : {
+        "type" : "reporter",
+        "category" : "operators",
+        "spec" : "%n / %n"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35b7"),
+    "reportProduct" : {
+        "type" : "reporter",
+        "category" : "operators",
+        "spec" : "%n × %n",
+        "alias" : "*"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35b8"),
+    "reportRound" : {
+        "type" : "reporter",
+        "category" : "operators",
+        "spec" : "round %n"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35b9"),
+    "reportGet" : {
+        "type" : "reporter",
+        "category" : "sensing",
+        "spec" : "my %get",
+        "defaults" : [ 
+            [ 
+                "neighbors"
+            ]
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35ba"),
+    "reportModulus" : {
+        "type" : "reporter",
+        "category" : "operators",
+        "spec" : "%n mod %n"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35bb"),
+    "reportMonadic" : {
+        "type" : "reporter",
+        "category" : "operators",
+        "spec" : "%fun of %n",
+        "defaults" : [ 
+            null, 
+            10
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35bc"),
+    "reportLessThan" : {
+        "type" : "predicate",
+        "category" : "operators",
+        "spec" : "%s < %s"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35bd"),
+    "reportEquals" : {
+        "type" : "predicate",
+        "category" : "operators",
+        "spec" : "%s = %s"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35be"),
+    "reportRandom" : {
+        "type" : "reporter",
+        "category" : "operators",
+        "spec" : "pick random %n to %n",
+        "defaults" : [ 
+            1, 
+            10
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35bf"),
+    "reportGreaterThan" : {
+        "type" : "predicate",
+        "category" : "operators",
+        "spec" : "%s > %s"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35c0"),
+    "reportAnd" : {
+        "type" : "predicate",
+        "category" : "operators",
+        "spec" : "%b and %b"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35c1"),
+    "reportOr" : {
+        "type" : "predicate",
+        "category" : "operators",
+        "spec" : "%b or %b"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35c2"),
+    "reportNot" : {
+        "type" : "predicate",
+        "category" : "operators",
+        "spec" : "not %b"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35c3"),
+    "reportFalse" : {
+        "type" : "predicate",
+        "category" : "operators",
+        "spec" : "false"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35c4"),
+    "reportJoinWords" : {
+        "type" : "reporter",
+        "category" : "operators",
+        "spec" : "join %words",
+        "defaults" : [ 
+            "localize('hello')+ ' '", 
+            "localize('world')"
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35c5"),
+    "reportLetter" : {
+        "type" : "reporter",
+        "category" : "operators",
+        "spec" : "letter %n of %s",
+        "defaults" : [ 
+            1, 
+            "localize('world')"
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35c6"),
+    "reportStringSize" : {
+        "type" : "reporter",
+        "category" : "operators",
+        "spec" : "length of %s",
+        "defaults" : [ 
+            "localize('world')"
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35c7"),
+    "reportUnicodeAsLetter" : {
+        "type" : "reporter",
+        "category" : "operators",
+        "spec" : "unicode %n as letter",
+        "defaults" : [ 
+            65
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35c8"),
+    "reportIsA" : {
+        "type" : "predicate",
+        "category" : "operators",
+        "spec" : "is %s a %typ ?",
+        "defaults" : [ 
+            5
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35c9"),
+    "reportIsIdentical" : {
+        "type" : "predicate",
+        "category" : "operators",
+        "spec" : "is %s identical to %s ?"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35ca"),
+    "reportJSFunction" : {
+        "type" : "reporter",
+        "category" : "operators",
+        "spec" : "JavaScript function ( %mult%s ) { %code }"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35cb"),
+    "reportTextSplit" : {
+        "type" : "reporter",
+        "category" : "operators",
+        "spec" : "split %s by %delim",
+        "defaults" : [ 
+            "localize('hello') + ' ' + localize('world')", 
+            " "
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35cc"),
+    "reportStackSize" : {
+        "dev" : true,
+        "type" : "reporter",
+        "category" : "sensing",
+        "spec" : "stack size"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35cd"),
+    "getLastAnswer" : {
+        "type" : "reporter",
+        "category" : "sensing",
+        "spec" : "answer"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35ce"),
+    "reportTypeOf" : {
+        "dev" : true,
+        "type" : "reporter",
+        "category" : "operators",
+        "spec" : "type of %s",
+        "defaults" : [ 
+            5
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35cf"),
+    "reportTrue" : {
+        "type" : "predicate",
+        "category" : "operators",
+        "spec" : "true"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35d0"),
+    "doDeclareVariables" : {
+        "type" : "command",
+        "category" : "other",
+        "spec" : "script variables %scriptVars"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35d1"),
+    "doHideVar" : {
+        "type" : "command",
+        "category" : "variables",
+        "spec" : "hide variable %var"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35d2"),
+    "reportTextFunction" : {
+        "dev" : true,
+        "type" : "reporter",
+        "category" : "operators",
+        "spec" : "%txtfun of %s",
+        "defaults" : [ 
+            null, 
+            "Abelson & Sussman"
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35d3"),
+    "doChangeVar" : {
+        "type" : "command",
+        "category" : "variables",
+        "spec" : "change %var by %n",
+        "defaults" : [ 
+            null, 
+            1
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35d4"),
+    "doShowVar" : {
+        "type" : "command",
+        "category" : "variables",
+        "spec" : "show variable %var"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35d5"),
+    "reportUnicode" : {
+        "type" : "reporter",
+        "category" : "operators",
+        "spec" : "unicode of %s",
+        "defaults" : [ 
+            "a"
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35d6"),
+    "reportNewList" : {
+        "type" : "reporter",
+        "category" : "lists",
+        "spec" : "list %exp"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35d7"),
+    "doDeleteAttr" : {
+        "type" : "command",
+        "category" : "variables",
+        "spec" : "delete %shd"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35d8"),
+    "doDeleteFromList" : {
+        "type" : "command",
+        "category" : "lists",
+        "spec" : "delete %ida of %l",
+        "defaults" : [ 
+            1
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35d9"),
+    "reportCONS" : {
+        "type" : "reporter",
+        "category" : "lists",
+        "spec" : "%s in front of %l"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35da"),
+    "doInsertInList" : {
+        "type" : "command",
+        "category" : "lists",
+        "spec" : "insert %s at %idx of %l",
+        "defaults" : [ 
+            "localize('thing')", 
+            1
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35db"),
+    "reportMap" : {
+        "dev" : true,
+        "type" : "reporter",
+        "category" : "lists",
+        "spec" : "map %repRing over %l"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35dc"),
+    "reportCDR" : {
+        "type" : "reporter",
+        "category" : "lists",
+        "spec" : "all but first of %l"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35dd"),
+    "doSetVar" : {
+        "type" : "command",
+        "category" : "variables",
+        "spec" : "set %var to %s",
+        "defaults" : [ 
+            null, 
+            0
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35de"),
+    "reportListContainsItem" : {
+        "type" : "predicate",
+        "category" : "lists",
+        "spec" : "%l contains %s",
+        "defaults" : [ 
+            null, 
+            "localize('thing')"
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35df"),
+    "doShowTable" : {
+        "dev" : true,
+        "type" : "command",
+        "category" : "lists",
+        "spec" : "show table %l"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35e0"),
+    "doMapCodeOrHeader" : {
+        "type" : "command",
+        "category" : "other",
+        "spec" : "map %cmdRing to %codeKind %code"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35e1"),
+    "reportListLength" : {
+        "type" : "reporter",
+        "category" : "lists",
+        "spec" : "length of %l"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35e2"),
+    "doMapStringCode" : {
+        "type" : "command",
+        "category" : "other",
+        "spec" : "map String to code %code",
+        "defaults" : [ 
+            "<#1>"
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35e3"),
+    "doForEach" : {
+        "dev" : true,
+        "type" : "command",
+        "category" : "lists",
+        "spec" : "for %upvar in %l %cl",
+        "defaults" : [ 
+            "localize('each item')"
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35e4"),
+    "reportListItem" : {
+        "type" : "reporter",
+        "category" : "lists",
+        "spec" : "item %idx of %l",
+        "defaults" : [ 
+            1
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35e5"),
+    "doReplaceInList" : {
+        "type" : "command",
+        "category" : "lists",
+        "spec" : "replace item %idx of %l with %s",
+        "defaults" : [ 
+            1, 
+            null, 
+            "localize('thing')"
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35e6"),
+    "doAddToList" : {
+        "type" : "command",
+        "category" : "lists",
+        "spec" : "add %s to %l",
+        "defaults" : [ 
+            "localize('thing')"
+        ]
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35e7"),
+    "doMapListCode" : {
+        "type" : "command",
+        "category" : "other",
+        "spec" : "map %codeListPart of %codeListKind to code %code"
+    }
+}
+
+
+{
+    "_id" : ObjectId("57973b57c735c6d6dbff35e8"),
+    "reportMappedCode" : {
+        "type" : "reporter",
+        "category" : "other",
+        "spec" : "code of %cmdRing"
+    }
+}

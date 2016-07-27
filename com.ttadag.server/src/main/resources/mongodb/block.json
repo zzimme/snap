@@ -1,0 +1,1868 @@
+/* 1 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc301"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "setHeading",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "motion",
+    "spec" : "point in direction %dir"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc302"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "changeXPosition",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "motion",
+    "spec" : "change x by %n",
+    "defaults" : [ 
+        10
+    ]
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc303"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "setXPosition",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "motion",
+    "spec" : "set x to %n",
+    "defaults" : [ 
+        0
+    ]
+}
+
+/* 4 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc304"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "turnLeft",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "motion",
+    "spec" : "turn %counterclockwise %n degrees",
+    "defaults" : [ 
+        15
+    ]
+}
+
+/* 5 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc305"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doGlide",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "motion",
+    "spec" : "glide %n secs to x: %n y: %n",
+    "defaults" : [ 
+        1, 
+        0, 
+        0
+    ]
+}
+
+/* 6 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc306"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "changeYPosition",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "motion",
+    "spec" : "change y by %n",
+    "defaults" : [ 
+        10
+    ]
+}
+
+/* 7 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc307"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "setYPosition",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "motion",
+    "spec" : "set y to %n",
+    "defaults" : [ 
+        0
+    ]
+}
+
+/* 8 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc308"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "xPosition",
+    "only" : "SpriteMorph",
+    "type" : "reporter",
+    "category" : "motion",
+    "spec" : "x position"
+}
+
+/* 9 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc309"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "bounceOffEdge",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "motion",
+    "spec" : "if on edge, bounce"
+}
+
+/* 10 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc30a"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doGotoObject",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "motion",
+    "spec" : "go to %dst"
+}
+
+/* 11 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc30b"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "yPosition",
+    "only" : "SpriteMorph",
+    "type" : "reporter",
+    "category" : "motion",
+    "spec" : "y position"
+}
+
+/* 12 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc30c"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "forward",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "motion",
+    "spec" : "move %n steps",
+    "defaults" : [ 
+        10
+    ]
+}
+
+/* 13 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc30d"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doFaceTowards",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "motion",
+    "spec" : "point towards %dst"
+}
+
+/* 14 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc30e"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doSwitchToCostume",
+    "type" : "command",
+    "category" : "looks",
+    "spec" : "switch to costume %cst"
+}
+
+/* 15 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc30f"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "bubble",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "looks",
+    "spec" : "say %s",
+    "defaults" : [ 
+        "localize('Hello!')"
+    ]
+}
+
+/* 16 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc310"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "direction",
+    "only" : "SpriteMorph",
+    "type" : "reporter",
+    "category" : "motion",
+    "spec" : "direction"
+}
+
+/* 17 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc311"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "getCostumeIdx",
+    "type" : "reporter",
+    "category" : "looks",
+    "spec" : "costume #"
+}
+
+/* 18 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc312"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doSayFor",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "looks",
+    "spec" : "say %s for %n secs",
+    "defaults" : [ 
+        "localize('Hello!')", 
+        2
+    ]
+}
+
+/* 19 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc313"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doThinkFor",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "looks",
+    "spec" : "think %s for %n secs",
+    "defaults" : [ 
+        "localize('Hmm...')", 
+        2
+    ]
+}
+
+/* 20 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc314"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "setEffect",
+    "type" : "command",
+    "category" : "looks",
+    "spec" : "set %eff effect to %n",
+    "defaults" : [ 
+        null, 
+        0
+    ]
+}
+
+/* 21 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc315"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "gotoXY",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "motion",
+    "spec" : "go to x: %n y: %n",
+    "defaults" : [ 
+        0, 
+        0
+    ]
+}
+
+/* 22 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc316"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "changeScale",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "looks",
+    "spec" : "change size by %n",
+    "defaults" : [ 
+        10
+    ]
+}
+
+/* 23 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc317"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "clearEffects",
+    "type" : "command",
+    "category" : "looks",
+    "spec" : "clear graphic effects"
+}
+
+/* 24 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc318"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doWearNextCostume",
+    "type" : "command",
+    "category" : "looks",
+    "spec" : "next costume"
+}
+
+/* 25 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc319"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "changeEffect",
+    "type" : "command",
+    "category" : "looks",
+    "spec" : "change %eff effect by %n",
+    "defaults" : [ 
+        null, 
+        25
+    ]
+}
+
+/* 26 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc31a"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "comeToFront",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "looks",
+    "spec" : "go to front"
+}
+
+/* 27 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc31b"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "setScale",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "looks",
+    "spec" : "set size to %n %",
+    "defaults" : [ 
+        100
+    ]
+}
+
+/* 28 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc31c"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "turn",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "motion",
+    "spec" : "turn %clockwise %n degrees",
+    "defaults" : [ 
+        15
+    ]
+}
+
+/* 29 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc31d"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "goBack",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "looks",
+    "spec" : "go back %n layers",
+    "defaults" : [ 
+        1
+    ]
+}
+
+/* 30 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc31e"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "alert",
+    "type" : "command",
+    "category" : "looks",
+    "spec" : "alert %mult%s",
+    "dev" : "true"
+}
+
+/* 31 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc31f"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "log",
+    "type" : "command",
+    "category" : "looks",
+    "spec" : "console log %mult%s",
+    "dev" : "true"
+}
+
+/* 32 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc320"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "playSound",
+    "type" : "command",
+    "category" : "sound",
+    "spec" : "play sound %snd"
+}
+
+/* 33 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc321"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doPlaySoundUntilDone",
+    "type" : "command",
+    "category" : "sound",
+    "spec" : "play sound %snd until done"
+}
+
+/* 34 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc322"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doThink",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "looks",
+    "spec" : "think %s",
+    "defaults" : [ 
+        "localize('Hmm...')"
+    ]
+}
+
+/* 35 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc323"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doStopAllSounds",
+    "type" : "command",
+    "category" : "sound",
+    "spec" : "stop all sounds"
+}
+
+/* 36 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc324"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doScreenshot",
+    "type" : "command",
+    "category" : "looks",
+    "spec" : "save %imgsource as costume named %s",
+    "defaults" : [ 
+        [ 
+            "pen trails"
+        ], 
+        "localize('screenshot')"
+    ]
+}
+
+/* 37 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc325"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doChangeTempo",
+    "type" : "command",
+    "category" : "sound",
+    "spec" : "change tempo by %n",
+    "defaults" : [ 
+        20
+    ]
+}
+
+/* 38 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc326"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "show",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "looks",
+    "spec" : "show"
+}
+
+/* 39 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc327"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "getTempo",
+    "type" : "reporter",
+    "category" : "sound",
+    "spec" : "tempo"
+}
+
+/* 40 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc328"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportSounds",
+    "type" : "reporter",
+    "category" : "sound",
+    "spec" : "jukebox",
+    "dev" : "true"
+}
+
+/* 41 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc329"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportCostumes",
+    "type" : "reporter",
+    "category" : "looks",
+    "spec" : "wardrobe",
+    "dev" : "true"
+}
+
+/* 42 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc32a"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "down",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "pen",
+    "spec" : "pen down"
+}
+
+/* 43 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc32b"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "hide",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "looks",
+    "spec" : "hide"
+}
+
+/* 44 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc32c"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "setColor",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "pen",
+    "spec" : "set pen color to %clr"
+}
+
+/* 45 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc32d"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doRest",
+    "type" : "command",
+    "category" : "sound",
+    "spec" : "rest for %n beats",
+    "defaults" : [ 
+        0.2000000000000000
+    ]
+}
+
+/* 46 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc32e"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "changeHue",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "pen",
+    "spec" : "change pen color by %n",
+    "defaults" : [ 
+        10
+    ]
+}
+
+/* 47 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc32f"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "up",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "pen",
+    "spec" : "pen up"
+}
+
+/* 48 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc330"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "changeBrightness",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "pen",
+    "spec" : "change pen shade by %n",
+    "defaults" : [ 
+        10
+    ]
+}
+
+/* 49 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc331"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "setBrightness",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "pen",
+    "spec" : "set pen shade to %n",
+    "defaults" : [ 
+        100
+    ]
+}
+
+/* 50 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc332"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doStamp",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "pen",
+    "spec" : "stamp"
+}
+
+/* 51 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc333"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "setHue",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "pen",
+    "spec" : "set pen color to %n",
+    "defaults" : [ 
+        0
+    ]
+}
+
+/* 52 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc334"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doSetTempo",
+    "type" : "command",
+    "category" : "sound",
+    "spec" : "set tempo to %n bpm",
+    "defaults" : [ 
+        60
+    ]
+}
+
+/* 53 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc335"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "changeSize",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "pen",
+    "spec" : "change pen size by %n",
+    "defaults" : [ 
+        1
+    ]
+}
+
+/* 54 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc336"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "clear",
+    "type" : "command",
+    "category" : "pen",
+    "spec" : "clear"
+}
+
+/* 55 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc337"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "floodFill",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "pen",
+    "spec" : "fill"
+}
+
+/* 56 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc338"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "receiveInteraction",
+    "type" : "hat",
+    "category" : "control",
+    "spec" : "when I am %interaction",
+    "defaults" : [ 
+        "clicked"
+    ]
+}
+
+/* 57 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc339"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "setSize",
+    "only" : "SpriteMorph",
+    "type" : "command",
+    "category" : "pen",
+    "spec" : "set pen size to %n",
+    "defaults" : [ 
+        1
+    ]
+}
+
+/* 58 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc33a"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doBroadcast",
+    "type" : "command",
+    "category" : "control",
+    "spec" : "broadcast %msg"
+}
+
+/* 59 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc33b"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "receiveMessage",
+    "type" : "hat",
+    "category" : "control",
+    "spec" : "when I receive %msgHat"
+}
+
+/* 60 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc33c"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "receiveCondition",
+    "type" : "hat",
+    "category" : "control",
+    "spec" : "when %b"
+}
+
+/* 61 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc33d"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "getLastMessage",
+    "type" : "reporter",
+    "category" : "control",
+    "spec" : "message"
+}
+
+/* 62 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc33e"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doBroadcastAndWait",
+    "type" : "command",
+    "category" : "control",
+    "spec" : "broadcast %msg and wait"
+}
+
+/* 63 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc33f"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "receiveKey",
+    "type" : "hat",
+    "category" : "control",
+    "spec" : "when %keyHat key pressed 1"
+}
+
+/* 64 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc340"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doPlayNote",
+    "type" : "command",
+    "category" : "sound",
+    "spec" : "play note %n for %n beats",
+    "defaults" : [ 
+        60, 
+        0.5000000000000000
+    ]
+}
+
+/* 65 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc341"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "getScale",
+    "only" : "SpriteMorph",
+    "type" : "reporter",
+    "category" : "looks",
+    "spec" : "size"
+}
+
+/* 66 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc342"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "receiveGo",
+    "type" : "hat",
+    "category" : "control",
+    "spec" : "when %greenflag clicked"
+}
+
+/* 67 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc343"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doWait",
+    "type" : "command",
+    "category" : "control",
+    "spec" : "wait %n secs",
+    "defaults" : [ 
+        1
+    ]
+}
+
+/* 68 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc344"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doWaitUntil",
+    "type" : "command",
+    "category" : "control",
+    "spec" : "wait until %b"
+}
+
+/* 69 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc345"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doForever",
+    "type" : "command",
+    "category" : "control",
+    "spec" : "forever %c"
+}
+
+/* 70 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc346"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doUntil",
+    "type" : "command",
+    "category" : "control",
+    "spec" : "repeat until %b %c"
+}
+
+/* 71 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc347"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doRepeat",
+    "type" : "command",
+    "category" : "control",
+    "spec" : "repeat %n %c",
+    "defaults" : [ 
+        10
+    ]
+}
+
+/* 72 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc348"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doIf",
+    "type" : "command",
+    "category" : "control",
+    "spec" : "if %b %c"
+}
+
+/* 73 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc349"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doIfElse",
+    "type" : "command",
+    "category" : "control",
+    "spec" : "if %b %c else %c"
+}
+
+/* 74 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc34a"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doStopThis",
+    "type" : "command",
+    "category" : "control",
+    "spec" : "stop %stopChoices"
+}
+
+/* 75 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc34b"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doRun",
+    "type" : "command",
+    "category" : "control",
+    "spec" : "run %cmdRing %inputs"
+}
+
+/* 76 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc34c"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doStopOthers",
+    "type" : "command",
+    "category" : "control",
+    "spec" : "stop %stopOthersChoices"
+}
+
+/* 77 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc34d"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "fork",
+    "type" : "command",
+    "category" : "control",
+    "spec" : "launch %cmdRing %inputs"
+}
+
+/* 78 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc34e"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doReport",
+    "type" : "command",
+    "category" : "control",
+    "spec" : "report %s"
+}
+
+/* 79 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc34f"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "evaluate",
+    "type" : "reporter",
+    "category" : "control",
+    "spec" : "call %repRing %inputs"
+}
+
+/* 80 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc350"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doCallCC",
+    "type" : "command",
+    "category" : "control",
+    "spec" : "run %cmdRing w/continuation"
+}
+
+/* 81 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc351"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doWarp",
+    "type" : "command",
+    "category" : "other",
+    "spec" : "warp %c"
+}
+
+/* 82 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc352"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "receiveOnClone",
+    "type" : "hat",
+    "category" : "control",
+    "spec" : "when I start as a clone"
+}
+
+/* 83 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc353"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportTouchingObject",
+    "only" : "SpriteMorph",
+    "type" : "predicate",
+    "category" : "sensing",
+    "spec" : "touching %col ?"
+}
+
+/* 84 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc354"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportCallCC",
+    "type" : "reporter",
+    "category" : "control",
+    "spec" : "call %cmdRing w/continuation"
+}
+
+/* 85 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc355"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doPauseAll",
+    "type" : "command",
+    "category" : "control",
+    "spec" : "pause all %pause"
+}
+
+/* 86 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc356"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "removeClone",
+    "type" : "command",
+    "category" : "control",
+    "spec" : "delete this clone"
+}
+
+/* 87 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc357"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "createClone",
+    "type" : "command",
+    "category" : "control",
+    "spec" : "create a clone of %cln"
+}
+
+/* 88 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc358"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportTouchingColor",
+    "only" : "SpriteMorph",
+    "type" : "predicate",
+    "category" : "sensing",
+    "spec" : "touching %clr ?"
+}
+
+/* 89 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc359"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportFrameCount",
+    "type" : "reporter",
+    "category" : "sensing",
+    "spec" : "frames",
+    "dev" : "true"
+}
+
+/* 90 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc35a"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportColorIsTouchingColor",
+    "only" : "SpriteMorph",
+    "type" : "predicate",
+    "category" : "sensing",
+    "spec" : "color %clr is touching %clr ?"
+}
+
+/* 91 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc35b"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportThreadCount",
+    "type" : "reporter",
+    "category" : "sensing",
+    "spec" : "processes",
+    "dev" : "true"
+}
+
+/* 92 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc35c"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportLastAnswer",
+    "type" : "reporter",
+    "category" : "sensing",
+    "spec" : "answer",
+    "dev" : "true"
+}
+
+/* 93 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc35d"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doAsk",
+    "type" : "command",
+    "category" : "sensing",
+    "spec" : "ask %s and wait",
+    "defaults" : [ 
+        "localize('what's your name?')"
+    ]
+}
+
+/* 94 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc35e"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportMouseX",
+    "type" : "reporter",
+    "category" : "sensing",
+    "spec" : "mouse x"
+}
+
+/* 95 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc35f"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "colorFiltered",
+    "type" : "reporter",
+    "category" : "sensing",
+    "spec" : "filtered for %clr",
+    "dev" : "true"
+}
+
+/* 96 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc360"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportMouseDown",
+    "type" : "predicate",
+    "category" : "sensing",
+    "spec" : "mouse down?"
+}
+
+/* 97 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc361"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportMouseY",
+    "type" : "reporter",
+    "category" : "sensing",
+    "spec" : "mouse y"
+}
+
+/* 98 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc362"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doResetTimer",
+    "type" : "command",
+    "category" : "sensing",
+    "spec" : "reset timer"
+}
+
+/* 99 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc363"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportTimer",
+    "type" : "reporter",
+    "category" : "sensing",
+    "spec" : "timer",
+    "dev" : "true"
+}
+
+/* 100 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc364"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportKeyPressed",
+    "type" : "predicate",
+    "category" : "sensing",
+    "spec" : "key %key pressed?"
+}
+
+/* 101 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc365"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "getTimer",
+    "type" : "reporter",
+    "category" : "sensing",
+    "spec" : "timer"
+}
+
+/* 102 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc366"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportIsFastTracking",
+    "type" : "predicate",
+    "category" : "sensing",
+    "spec" : "turbo mode?"
+}
+
+/* 103 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc367"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportURL",
+    "type" : "reporter",
+    "category" : "sensing",
+    "spec" : "http:// %s",
+    "defaults" : [ 
+        "snap.berkeley.edu"
+    ]
+}
+
+/* 104 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc368"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportDistanceTo",
+    "type" : "reporter",
+    "category" : "sensing",
+    "spec" : "distance to %dst"
+}
+
+/* 105 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc369"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doSetFastTracking",
+    "type" : "command",
+    "category" : "sensing",
+    "spec" : "set turbo mode to %b"
+}
+
+/* 106 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc36a"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportDate",
+    "type" : "reporter",
+    "category" : "sensing",
+    "spec" : "current %dates"
+}
+
+/* 107 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc36b"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reifyReporter"
+}
+
+/* 108 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc36c"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reifyScript"
+}
+
+/* 109 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc36d"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportAttributeOf",
+    "type" : "reporter",
+    "category" : "sensing",
+    "spec" : "%att of %spr",
+    "defaults" : [ 
+        [ 
+            "costume #"
+        ]
+    ]
+}
+
+/* 110 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc36e"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reifyPredicate"
+}
+
+/* 111 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc36f"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportSum",
+    "type" : "reporter",
+    "category" : "operators",
+    "spec" : "%n + %n"
+}
+
+/* 112 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc370"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportDifference"
+}
+
+/* 113 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc371"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportQuotient",
+    "type" : "reporter",
+    "category" : "operators",
+    "spec" : "%n / %n"
+}
+
+/* 114 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc372"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportProduct"
+}
+
+/* 115 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc373"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportRound",
+    "type" : "reporter",
+    "category" : "operators",
+    "spec" : "round %n"
+}
+
+/* 116 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc374"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportGet",
+    "type" : "reporter",
+    "category" : "sensing",
+    "spec" : "my %get",
+    "defaults" : [ 
+        [ 
+            "neighbors"
+        ]
+    ]
+}
+
+/* 117 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc375"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportModulus",
+    "type" : "reporter",
+    "category" : "operators",
+    "spec" : "%n mod %n"
+}
+
+/* 118 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc376"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportMonadic",
+    "type" : "reporter",
+    "category" : "operators",
+    "spec" : "%fun of %n",
+    "defaults" : [ 
+        null, 
+        10
+    ]
+}
+
+/* 119 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc377"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportLessThan",
+    "type" : "predicate",
+    "category" : "operators",
+    "spec" : "%s < %s"
+}
+
+/* 120 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc378"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportEquals",
+    "type" : "predicate",
+    "category" : "operators",
+    "spec" : "%s = %s"
+}
+
+/* 121 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc379"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportRandom",
+    "type" : "reporter",
+    "category" : "operators",
+    "spec" : "pick random %n to %n",
+    "defaults" : [ 
+        1, 
+        10
+    ]
+}
+
+/* 122 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc37a"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportGreaterThan",
+    "type" : "predicate",
+    "category" : "operators",
+    "spec" : "%s > %s"
+}
+
+/* 123 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc37b"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportAnd",
+    "type" : "predicate",
+    "category" : "operators",
+    "spec" : "%b and %b"
+}
+
+/* 124 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc37c"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportOr",
+    "type" : "predicate",
+    "category" : "operators",
+    "spec" : "%b or %b"
+}
+
+/* 125 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc37d"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportNot",
+    "type" : "predicate",
+    "category" : "operators",
+    "spec" : "not %b"
+}
+
+/* 126 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc37e"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportFalse",
+    "type" : "predicate",
+    "category" : "operators",
+    "spec" : "false"
+}
+
+/* 127 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc37f"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportJoinWords",
+    "type" : "reporter",
+    "category" : "operators",
+    "spec" : "join %words",
+    "defaults" : [ 
+        "localize('hello')+ ' '", 
+        "localize('world')"
+    ]
+}
+
+/* 128 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc380"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportLetter",
+    "type" : "reporter",
+    "category" : "operators",
+    "spec" : "letter %n of %s",
+    "defaults" : [ 
+        1, 
+        "localize('world')"
+    ]
+}
+
+/* 129 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc381"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportStringSize",
+    "type" : "reporter",
+    "category" : "operators",
+    "spec" : "length of %s",
+    "defaults" : [ 
+        "localize('world')"
+    ]
+}
+
+/* 130 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc382"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportUnicodeAsLetter",
+    "type" : "reporter",
+    "category" : "operators",
+    "spec" : "unicode %n as letter",
+    "defaults" : [ 
+        65
+    ]
+}
+
+/* 131 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc383"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportIsA",
+    "type" : "predicate",
+    "category" : "operators",
+    "spec" : "is %s a %typ ?",
+    "defaults" : [ 
+        5
+    ]
+}
+
+/* 132 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc384"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportIsIdentical",
+    "type" : "predicate",
+    "category" : "operators",
+    "spec" : "is %s identical to %s ?"
+}
+
+/* 133 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc385"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportJSFunction",
+    "type" : "reporter",
+    "category" : "operators",
+    "spec" : "JavaScript function ( %mult%s ) { %code }"
+}
+
+/* 134 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc386"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportTextSplit",
+    "type" : "reporter",
+    "category" : "operators",
+    "spec" : "split %s by %delim",
+    "defaults" : [ 
+        "localize('hello') + ' ' + localize('world')", 
+        " "
+    ]
+}
+
+/* 135 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc387"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportStackSize",
+    "type" : "reporter",
+    "category" : "sensing",
+    "spec" : "stack size",
+    "dev" : "true"
+}
+
+/* 136 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc388"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "getLastAnswer",
+    "type" : "reporter",
+    "category" : "sensing",
+    "spec" : "answer"
+}
+
+/* 137 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc389"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportTypeOf",
+    "type" : "reporter",
+    "category" : "operators",
+    "spec" : "type of %s",
+    "defaults" : [ 
+        5
+    ],
+    "dev" : "true"
+}
+
+/* 138 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc38a"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportTrue",
+    "type" : "predicate",
+    "category" : "operators",
+    "spec" : "true"
+}
+
+/* 139 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc38b"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doDeclareVariables",
+    "type" : "command",
+    "category" : "other",
+    "spec" : "script variables %scriptVars"
+}
+
+/* 140 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc38c"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doHideVar",
+    "type" : "command",
+    "category" : "variables",
+    "spec" : "hide variable %var"
+}
+
+/* 141 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc38d"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportTextFunction",
+    "type" : "reporter",
+    "category" : "operators",
+    "spec" : "%txtfun of %s",
+    "defaults" : [ 
+        null, 
+        "Abelson & Sussman"
+    ],
+    "dev" : "true"
+}
+
+/* 142 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc38e"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doChangeVar",
+    "type" : "command",
+    "category" : "variables",
+    "spec" : "change %var by %n",
+    "defaults" : [ 
+        null, 
+        1
+    ]
+}
+
+/* 143 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc38f"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doShowVar",
+    "type" : "command",
+    "category" : "variables",
+    "spec" : "show variable %var"
+}
+
+/* 144 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc390"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportUnicode",
+    "type" : "reporter",
+    "category" : "operators",
+    "spec" : "unicode of %s",
+    "defaults" : [ 
+        "a"
+    ]
+}
+
+/* 145 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc391"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportNewList",
+    "type" : "reporter",
+    "category" : "lists",
+    "spec" : "list %exp"
+}
+
+/* 146 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc392"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doDeleteAttr",
+    "type" : "command",
+    "category" : "variables",
+    "spec" : "delete %shd"
+}
+
+/* 147 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc393"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doDeleteFromList",
+    "type" : "command",
+    "category" : "lists",
+    "spec" : "delete %ida of %l",
+    "defaults" : [ 
+        1
+    ]
+}
+
+/* 148 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc394"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportCONS",
+    "type" : "reporter",
+    "category" : "lists",
+    "spec" : "%s in front of %l"
+}
+
+/* 149 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc395"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doInsertInList",
+    "type" : "command",
+    "category" : "lists",
+    "spec" : "insert %s at %idx of %l",
+    "defaults" : [ 
+        "localize('thing')", 
+        1
+    ]
+}
+
+/* 150 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc396"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportMap",
+    "type" : "reporter",
+    "category" : "lists",
+    "spec" : "map %repRing over %l",
+    "dev" : "true"
+}
+
+/* 151 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc397"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportCDR",
+    "type" : "reporter",
+    "category" : "lists",
+    "spec" : "all but first of %l"
+}
+
+/* 152 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc398"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doSetVar",
+    "type" : "command",
+    "category" : "variables",
+    "spec" : "set %var to %s",
+    "defaults" : [ 
+        null, 
+        0
+    ]
+}
+
+/* 153 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc399"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportListContainsItem",
+    "type" : "predicate",
+    "category" : "lists",
+    "spec" : "%l contains %s",
+    "defaults" : [ 
+        null, 
+        "localize('thing')"
+    ]
+}
+
+/* 154 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc39a"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doShowTable",
+    "type" : "command",
+    "category" : "lists",
+    "spec" : "show table %l",
+    "dev" : "true"
+}
+
+/* 155 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc39b"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doMapCodeOrHeader",
+    "type" : "command",
+    "category" : "other",
+    "spec" : "map %cmdRing to %codeKind %code"
+}
+
+/* 156 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc39c"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportListLength",
+    "type" : "reporter",
+    "category" : "lists",
+    "spec" : "length of %l"
+}
+
+/* 157 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc39d"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doMapStringCode",
+    "type" : "command",
+    "category" : "other",
+    "spec" : "map String to code %code",
+    "defaults" : [ 
+        "<#1>"
+    ]
+}
+
+/* 158 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc39e"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doForEach",
+    "type" : "command",
+    "category" : "lists",
+    "spec" : "for %upvar in %l %cl",
+    "defaults" : [ 
+        "localize('each item')"
+    ],
+    "dev" : "true"
+}
+
+/* 159 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc39f"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportListItem",
+    "type" : "reporter",
+    "category" : "lists",
+    "spec" : "item %idx of %l",
+    "defaults" : [ 
+        1
+    ]
+}
+
+/* 160 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc3a0"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doReplaceInList",
+    "type" : "command",
+    "category" : "lists",
+    "spec" : "replace item %idx of %l with %s",
+    "defaults" : [ 
+        1, 
+        null, 
+        "localize('thing')"
+    ]
+}
+
+/* 161 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc3a1"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doAddToList",
+    "type" : "command",
+    "category" : "lists",
+    "spec" : "add %s to %l",
+    "defaults" : [ 
+        "localize('thing')"
+    ]
+}
+
+/* 162 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc3a2"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "doMapListCode",
+    "type" : "command",
+    "category" : "other",
+    "spec" : "map %codeListPart of %codeListKind to code %code"
+}
+
+/* 163 */
+{
+    "_id" : ObjectId("57987183d4c6b3b9a49cc3a3"),
+    "_class" : "com.ttadag.shared.model.Block",
+    "key" : "reportMappedCode",
+    "type" : "reporter",
+    "category" : "other",
+    "spec" : "code of %cmdRing"
+}
